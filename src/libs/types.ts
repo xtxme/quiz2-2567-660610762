@@ -24,7 +24,7 @@ interface CommentProps {
   interface PostOwnnerProps {
     MyName: string;
     Id: number;
-    Texts: string[];
+    Texts: string;
     Likes: number;
   }
   export type { PostOwnnerProps };

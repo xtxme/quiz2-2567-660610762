@@ -1,6 +1,5 @@
 "use client";
-
-
+import PostOwnner from "@/components/PostOwnner";
 export default function Home() {
   return (
     <div
@@ -13,6 +12,12 @@ export default function Home() {
         className="mx-auto p-3 rounded rounded-3 shadow-sm"
       >
         {/* Post Owner Example*/}
+        <PostOwnner
+          MyName="Tanapron Tangpadungsuk"
+          Id={660610762}
+          Texts="Quiz ง่ายจังเลยครับ ขอยาก ๆ กว่านี้ได้ไหม #261207"
+          Likes={100}
+        />
         
 
         {/* Comment Example */}
