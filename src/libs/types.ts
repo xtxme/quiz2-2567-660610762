@@ -9,6 +9,7 @@ interface ReplyProps {
   username: string;
   replyText: string;
   likeNum: number;
+  showlike: number;
 }
 export type { ReplyProps };
 

@@ -19,7 +19,6 @@ export default function Home() {
           Likes={100}
         />
         
-
         {/* Comment Example */}
         <div className="d-flex gap-2 my-2">
           <img
